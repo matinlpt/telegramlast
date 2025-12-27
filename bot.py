@@ -199,8 +199,8 @@ def daily_messages():
                 CHANNEL_USERNAME,
                 photo="https://i.imgur.com/lo2CJAl.jpeg",
                 caption=(
-                    "🌙 شب بخیر موزیسین‌ها 💫\n"
-                    "وقتشه آهنگارو قطع کنی و ذهنتو ریلکس کنی 🎧"
+                    "🌙 شب بخیر رفیقا 💫\n"
+                    "وقتشه آهنگارو پلی کنی و ریلکس کنی 🎧"
                 )
             )
             last_night_message = sent.message_id
@@ -211,3 +211,4 @@ def daily_messages():
 threading.Thread(target=daily_messages, daemon=True).start()
 print("بات فعال شد ✅")
 bot.infinity_polling()
+
