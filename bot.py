@@ -130,7 +130,7 @@ def about_bot(message):
     bot.reply_to(
         message,
         "🎧 این ربات برای اشتراک موزیک و ارتباط مستقیم ساخته شده.\n"
-        "⭐ طراحی و برنامه‌نویسی توسط متین امانی ⭐\n"
+        "⭐ matinlpt طراحی و برنامه‌نویسی توسط  ⭐\n"
         "📍 چنل: t.me/music176176"
     )
 
@@ -211,5 +211,6 @@ def daily_messages():
 threading.Thread(target=daily_messages, daemon=True).start()
 print("بات فعال شد ✅")
 bot.infinity_polling()
+
 
 
